@@ -1,0 +1,41 @@
+////////////////////////////////////////////////////////////////
+//
+//  File Name   : Program5.c
+//  Description : Accept the one number from user and print * 
+//                on its times
+//  Author      : Mayuri Bondge.
+//  Date        : 13/03/2026
+//
+////////////////////////////////////////////////////////////////
+
+#include<stdio.h>
+
+////////////////////////////////////////////////////////////////
+// 
+//  Function Name : Accept()
+//  Input         : Accept one number
+//  Output        : Display * times on screen                       
+//            
+////////////////////////////////////////////////////////////////
+
+void Accept(int iNo)
+{
+    int iCnt=0;
+    for(iCnt=1; iCnt<=iNo; iCnt++)
+    {
+        printf("*");
+    }
+}
+////////////////////////////////////////////////////////////////
+// Entry point function
+////////////////////////////////////////////////////////////////
+
+int main()
+{
+    int iValue=0;
+    iValue=5;
+
+    Accept(iValue);
+
+    return 0;
+}
