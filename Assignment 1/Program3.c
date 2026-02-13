@@ -1,9 +1,9 @@
 ////////////////////////////////////////////////////////////////
 //
 //  File Name   : Program3.c
-//  Description : Accept the two number from user
+//  Description : Display the numbers on screen
 //  Author      : Mayuri Bondge.
-//  Date        : 25/11/2025
+//  Date        : 13/02/2026
 //
 ////////////////////////////////////////////////////////////////
 
@@ -11,15 +11,14 @@
 
 ////////////////////////////////////////////////////////////////
 // 
-//  Function Name : Pattern
-//  Input         : Accept two number
-//  Output        : Divisions is                       
+//  Function Name : Display()
+//  Input         : Nothing
+//  Output        : Display the numbers on screen                      
 //            
 ////////////////////////////////////////////////////////////////
 
 void Display()
 {
-
     int iCnt=0;
     iCnt=5;
     while (iCnt>=1)
@@ -27,7 +26,6 @@ void Display()
         printf("%d" , iCnt);
         iCnt++;
     }
-    
 }
 ////////////////////////////////////////////////////////////////
 // Entry point function
@@ -37,5 +35,5 @@ int main()
 {
     Display();
     return 0;
-
 }
+
