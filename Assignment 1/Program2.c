@@ -1,9 +1,10 @@
 ////////////////////////////////////////////////////////////////
 //
-//  File Name   : Program1.c
-//  Description : Accept the two number from user
+//  File Name   : Program2.c
+//  Description : Accept the one number from user and print marvellous 
+//                on its times
 //  Author      : Mayuri Bondge.
-//  Date        : 25/11/2025
+//  Date        : 13/03/2026
 //
 ////////////////////////////////////////////////////////////////
 
@@ -11,9 +12,9 @@
 
 ////////////////////////////////////////////////////////////////
 // 
-//  Function Name : Pattern
-//  Input         : Accept two number
-//  Output        : Divisions is                       
+//  Function Name : Display
+//  Input         : Accept one number
+//  Output        : Display marvellous times on screen                       
 //            
 ////////////////////////////////////////////////////////////////
 
@@ -37,3 +38,4 @@ int main()
 
     return 0;
 }
+
