@@ -1,7 +1,7 @@
 
 ////////////////////////////////////////////////////////////////
 //
-//  File Name   : Program1_1.c
+//  File Name   : Program1.c
 //  Description : Accept the two number from user
 //  Author      : Mayuri Bondge.
 //  Date        : 25/11/2025
@@ -30,6 +30,9 @@ int DivideTwoNumbers(int iNo1, int iNo2)
     iAns= iNo1 / iNo2;
     return iAns;
 }
+////////////////////////////////////////////////////////////////
+// Entry point function
+////////////////////////////////////////////////////////////////
 
 int main()
 {
@@ -41,4 +44,5 @@ int main()
     printf("Division is :%d ",iRet);
 
     return 0;
+
 }
