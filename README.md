@@ -45,7 +45,7 @@ C_Programming/
 
 ---
 
-## 📚 Topics Covered
+## Topics Covered
 
 ### Basics
 
