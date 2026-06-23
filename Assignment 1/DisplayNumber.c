@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////
 //
-//  File Name   : Program3.c
+//  File Name   : DisplayNumber.c
 //  Description : Display the numbers on screen
 //  Author      : Mayuri Bondge.
 //  Date        : 13/02/2026
