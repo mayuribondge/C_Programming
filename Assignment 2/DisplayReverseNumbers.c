@@ -1,7 +1,7 @@
 //-------------------------------------------//
 // Author   : Mayuri Bondge
 // Date     : 13-02-2026
-// File name: Program3.c
+// File name: DisplayReverseNumbers.c
 //-------------------------------------------//
 
 #include<stdio.h>
