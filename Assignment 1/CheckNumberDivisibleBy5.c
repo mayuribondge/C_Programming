@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////
 //
-//  File Name   : Program4.c
-//  Description : Check whether number is diviible by 5 or not
+//  File Name   : CheckNumberDivisibleBy5.c
+//  Description : Check whether number is divisible by 5 or not
 //  Author      : Mayuri Bondge.
 //  Date        : 25/11/2025
 //
