@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////
 //
-//  File Name   : Program5.c
+//  File Name   : PrintStarsOnScrren.c
 //  Description : Accept the one number from user and print * 
 //                on its times
 //  Author      : Mayuri Bondge.
