@@ -1,7 +1,7 @@
 
 ////////////////////////////////////////////////////////////////
 //
-//  File Name   : Program1.c
+//  File Name   : AcceptTwoNumber.c
 //  Description : Accept the two number from user
 //  Author      : Mayuri Bondge.
 //  Date        : 25/11/2025
