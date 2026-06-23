@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////
 //
-//  File Name   : Program2.c
+//  File Name   : PrintMultipleTimes.c
 //  Description : Accept the one number from user and print marvellous 
 //                on its times
 //  Author      : Mayuri Bondge.
