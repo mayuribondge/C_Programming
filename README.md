@@ -1,203 +1,370 @@
-# C Programming
+# 💻 C Programming
 
-Welcome to the **C Programming** repository. This repository contains a collection of C programs ranging from beginner to advanced concepts. It is designed to strengthen programming fundamentals, problem-solving skills, and understanding of core computer science concepts.
+Welcome to my **C Programming** repository! 🚀
 
----
-
-##  About
-
-This repository includes well-structured C programs with proper comments and documentation. Each program demonstrates a specific concept and follows standard coding practices.
+This repository contains my **C programming practice programs, coding exercises, problem-solving programs, and fundamental concepts**. I am using this repository to improve my programming logic, strengthen my C fundamentals, and prepare for technical interviews and software development.
 
 ---
 
-##  Objectives
+## 👩‍💻 About Me
 
-* Learn C programming fundamentals
-* Understand problem-solving techniques
-* Practice programming logic
-* Build a strong foundation for Data Structures and Algorithms
-* Improve coding skills for technical interviews
-
----
-
-##  Repository Structure
-
-```text
-C_Programming/
-│
-├── 01_Basics/
-├── 02_Operators/
-├── 03_Conditional_Statements/
-├── 04_Loops/
-├── 05_Functions/
-├── 06_Arrays/
-├── 07_Strings/
-├── 08_Pointers/
-├── 09_Structures/
-├── 10_File_Handling/
-├── 11_Recursion/
-├── 12_Data_Structures/
-│
-├── README.md
-├── LICENSE
-└── .gitignore
-```
+**Name:** Mayuri Bondge
+**Degree:** B.E. Information Technology
+**University:** Savitribai Phule Pune University (SPPU)
+**Career Goal:** Software Developer
 
 ---
 
-## Topics Covered
+## 📚 Topics Covered
 
-### Basics
+### 🔹 C Programming Fundamentals
 
+* Introduction to C
+* Structure of a C Program
+* Compilation and Execution
+* Header Files
 * Variables
+* Constants
 * Data Types
+* Keywords
+* Identifiers
 * Input and Output
-* Operators
+* Type Conversion
+* Type Casting
+* Comments
 
-### Control Statements
+### 🔹 Operators
 
-* if
-* if-else
-* Nested if
-* switch
+* Arithmetic Operators
+* Relational Operators
+* Logical Operators
+* Assignment Operators
+* Increment and Decrement Operators
+* Conditional Operator
+* Bitwise Operators
+* Shift Operators
 
-### Loops
+### 🔹 Control Statements
 
-* for Loop
-* while Loop
-* do-while Loop
+* `if`
+* `if-else`
+* Nested `if`
+* `else-if`
+* `switch`
+* `for`
+* `while`
+* `do-while`
+* `break`
+* `continue`
 
-### Functions
+### 🔹 Number Programs
 
-* User Defined Functions
-* Function Arguments
+* Even and Odd Number
+* Prime Number
+* Factorial
+* Perfect Number
+* Armstrong Number
+* Palindrome Number
+* Reverse Number
+* Fibonacci Series
+* Factors of a Number
+* Sum of Digits
+* Count Digits
+* Multiplication Table
+* Strong Number
+
+### 🔹 Pattern Programs
+
+* Star Patterns
+* Number Patterns
+* Alphabet Patterns
+* Square Patterns
+* Pyramid Patterns
+* Inverted Pyramid
+* Diamond Patterns
+* Hollow Patterns
+
+### 🔹 Functions
+
+* Function Declaration
+* Function Definition
+* Function Calling
+* Parameters and Arguments
 * Return Values
-* Recursive Functions
+* User-Defined Functions
+* Call by Value
+* Recursion
+* Library Functions
 
-### Arrays
+### 🔹 Arrays
 
 * One-Dimensional Arrays
 * Two-Dimensional Arrays
+* Array Traversal
+* Searching
+* Sorting
+* Maximum Element
+* Minimum Element
+* Sum of Elements
+* Average of Elements
+* Reverse an Array
+* Duplicate Elements
+* Even and Odd Elements
 * Matrix Operations
 
-### Strings
+### 🔹 Strings
 
-* String Operations
-* Palindrome
-* Reverse String
+* String Declaration
+* String Initialization
+* String Input and Output
+* String Traversal
+* String Length
+* String Copy
+* String Comparison
+* String Concatenation
+* String Reverse
+* Palindrome String
 * Character Counting
 
-### Pointers
+### 🔹 Pointers
 
 * Pointer Basics
+* Pointer Declaration
+* Pointer Initialization
+* Address Operator `&`
+* Dereference Operator `*`
 * Pointer Arithmetic
-* Pointer to Functions
-* Dynamic Memory Allocation
+* Pointers and Arrays
+* Pointers and Functions
+* Pointer to Pointer
 
-### Structures
+### 🔹 Dynamic Memory Allocation
 
-* Nested Structures
+* `malloc()`
+* `calloc()`
+* `realloc()`
+* `free()`
+* Dynamic Arrays
+* Memory Management
+
+### 🔹 Structures and Unions
+
+* Structure
+* Structure Variables
 * Array of Structures
+* Nested Structures
+* Pointer to Structure
+* Structure with Functions
+* Union
+* Difference Between Structure and Union
 
-### File Handling
+### 🔹 File Handling
 
+* File Opening
+* File Closing
 * Reading Files
 * Writing Files
-* Updating Files
-
-### Recursion
-
-* Factorial
-* Fibonacci
-* Sum of Digits
-* Recursive Printing
-
----
-
-## Technologies Used
-
-* C Programming Language
-* GCC Compiler
-* Visual Studio Code
-* Code::Blocks
+* Appending Data
+* `fopen()`
+* `fclose()`
+* `fprintf()`
+* `fscanf()`
+* `fgets()`
+* `fputs()`
 
 ---
 
-##  How to Run
+## 🛠️ Technologies and Tools
+
+* **Programming Language:** C
+* **Compiler:** GCC
+* **Code Editor:** VS Code
+* **Version Control:** Git
+* **Repository:** GitHub
+* **Operating System:** Windows / Linux
+
+---
+
+## ▶️ How to Compile and Run
 
 ### Compile
 
 ```bash
-gcc filename.c -o output
+gcc Program.c -o Program
 ```
 
-### Execute
-
-#### Windows
+### Run on Windows
 
 ```bash
-output.exe
+Program.exe
 ```
 
-#### Linux / macOS
+### Run on Linux/macOS
 
 ```bash
-./output
+./Program
 ```
 
 ---
 
-##  Sample Programs
+## 💻 Sample Program
 
-* Print Star Pattern
-* Fibonacci Series
-* Factorial Using Recursion
-* Prime Number
-* Armstrong Number
-* Palindrome Number
-* String Reversal
-* Matrix Multiplication
-* File Handling Examples
+### Prime Number Program in C
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int num = 0;
+    int i = 0;
+    int flag = 0;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if(num <= 1)
+    {
+        printf("%d is not a prime number.\n", num);
+    }
+    else
+    {
+        for(i = 2; i <= num / 2; i++)
+        {
+            if(num % i == 0)
+            {
+                flag = 1;
+                break;
+            }
+        }
+
+        if(flag == 0)
+        {
+            printf("%d is a prime number.\n", num);
+        }
+        else
+        {
+            printf("%d is not a prime number.\n", num);
+        }
+    }
+
+    return 0;
+}
+```
+
+### Output
+
+```text
+Enter a number: 17
+17 is a prime number.
+```
 
 ---
 
-##  Learning Outcomes
+## 🎯 Learning Objectives
 
-After completing these programs, you will understand:
+The main objectives of this repository are:
 
-* Problem Solving
-* Programming Logic
-* Memory Management
+* Build strong C programming fundamentals
+* Improve programming logic
+* Develop problem-solving skills
+* Understand memory management
+* Learn pointers and dynamic memory allocation
+* Practice arrays and strings
+* Understand functions and recursion
+* Learn structures and unions
+* Practice file handling
+* Prepare for technical interviews
+* Build a strong foundation for Data Structures and Algorithms
+
+---
+
+## 🧠 Problem-Solving Practice
+
+I am practicing C programming problems related to:
+
+* Mathematical problems
+* Number manipulation
+* Pattern printing
+* Arrays
+* Strings
 * Functions
 * Recursion
 * Pointers
-* Arrays
+* Dynamic Memory Allocation
 * Structures
 * File Handling
 
 ---
 
-##  Contribution
+## 📈 Learning Progress
 
-Suggestions and improvements are welcome. Feel free to fork this repository and submit pull requests.
-
----
-
-##  License
-
-This project is licensed under the MIT License.
-
----
-
-##  Author
-
-**Mayuri Bondge**
-
-* Computer Engineering Student
-* Interested in C Programming, Python, Java, AI & Machine Learning
+| Topic                     | Status        |
+| ------------------------- | ------------- |
+| C Fundamentals            | ✅ Completed   |
+| Operators                 | ✅ Completed   |
+| Control Statements        | ✅ Completed   |
+| Number Programs           | 🔄 Practicing |
+| Pattern Programs          | 🔄 Practicing |
+| Functions                 | 🔄 Practicing |
+| Arrays                    | 🔄 Practicing |
+| Strings                   | 🔄 Practicing |
+| Pointers                  | 🔄 Learning   |
+| Dynamic Memory Allocation | 🔄 Learning   |
+| Structures and Unions     | 🔄 Learning   |
+| File Handling             | 🔄 Learning   |
 
 ---
 
-##  Support
+## 🚀 Future Learning Goals
 
-If you find this repository helpful, consider giving it a ⭐ on GitHub.
+After strengthening my C programming fundamentals, I plan to learn:
+
+* Data Structures and Algorithms
+* C++
+* Java
+* Python
+* Object-Oriented Programming
+* SQL
+* Database Management Systems
+* Backend Development
+* Software Development
+
+---
+
+## 📌 Skills
+
+**Programming Languages:** C, C++, Java, Python
+
+**Core Concepts:** Data Structures, Algorithms, OOP, Problem Solving
+
+**Database:** SQL, MySQL
+
+**Tools:** Git, GitHub, VS Code
+
+---
+
+## 🤝 Contribution
+
+This repository is created for my learning, practice, and programming development.
+
+Suggestions and improvements are welcome.
+
+---
+
+## 📬 Connect With Me
+
+**GitHub:**
+https://github.com/mayuribondge
+
+---
+
+## ⭐ Support
+
+If you find this repository useful, please consider giving it a ⭐ on GitHub.
+
+---
+
+### 🚀 Keep Learning. Keep Coding. Keep Growing.
+
+**Happy Coding with C! 💻**
